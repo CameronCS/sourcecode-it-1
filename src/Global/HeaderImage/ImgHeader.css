@@ -1,0 +1,9 @@
+.banner-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.banner {
+    width: 90%;
+}

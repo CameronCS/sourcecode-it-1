@@ -1,0 +1,18 @@
+:root {
+    --dark-grey: #1A191C;
+
+    --nav-text-color: #03e9f4;
+    --nav-text-color-hover: #050801;
+
+
+    --cbp-purple: #770Ca6;
+    --cbp-pink: #fe00fe;
+    --cbp-yellow: #defe47;
+    --cbp-light-blue: #00b3fe;
+    --cbp-dark-blue: #0016ee;
+}
+
+
+body {
+    margin: 0;
+}

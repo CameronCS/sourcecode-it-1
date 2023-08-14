@@ -1,0 +1,135 @@
+/* #region Neon Buttons */
+/*
+    Neon Button Section
+*/
+
+.nav-common {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    color: var(--nav-text-color);
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    letter-spacing: 2px;
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.nav-common {
+    background-color: var(--nav-text-color);
+    color: var(--nav-text-color-hover);
+    box-shadow: 
+        0 0 5px var(--nav-text-color),
+        0 0 25px var(--nav-text-color),
+        0 0 30px var(--nav-text-color),
+        0 0 40px var(--nav-text-color),
+        0 0 50px var(--nav-text-color),
+        0 0 200px var(--nav-text-color-hover),
+        0 0 300px var(--nav-text-color-hover);
+
+
+    -webkit-box-reflect: below 1px linear-gradient(transparent #000500);
+}
+
+
+.nav-common:hover {
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--nav-text-color);
+}
+
+.pink-nav {
+    filter: hue-rotate(110deg);
+}
+
+.green-nav {
+    filter: hue-rotate(270deg);
+}
+
+.nav-out {
+    position: absolute;
+    display: block;
+}
+
+.spin-effect-1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--nav-text-color));
+    animation: top-to-left 1s linear infinite;
+}
+
+@keyframes top-to-left {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.spin-effect-2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, var(--nav-text-color));
+    animation: right-to-bottom 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes right-to-bottom {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.spin-effect-3 {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, var(--nav-text-color));
+    animation: bottom-to-left 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes bottom-to-left {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+
+.spin-effect-4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, var(--nav-text-color));
+    animation: left-to-top 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes left-to-top {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+/* #endregion Neon Buttons */

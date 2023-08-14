@@ -1,0 +1,6 @@
+.footer {
+    display: flex;
+    background-color: black;
+    color: var(--cbp-light-blue);
+    justify-content: space-evenly;
+}

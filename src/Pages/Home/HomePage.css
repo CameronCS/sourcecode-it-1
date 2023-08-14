@@ -1,0 +1,10 @@
+.home-wrapper {
+    display: block;
+    text-align: center;
+}
+
+.main-home {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+}
